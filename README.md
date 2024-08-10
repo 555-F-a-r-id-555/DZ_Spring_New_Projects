@@ -140,3 +140,13 @@
 4. **** Попробовать запустить несколько экземпляров (instances) timesheets-rest
 5. **** Поизучать про RestTemplate. Попробовать завести его с использованием аннотации LoadBalanced
 ```
+
+### Урок 10 Spring Testing Junit и Mockito для написания тестов
+```java
+Протестировать TimesheetController
+GET /timesheets/{id}
+GET /timesheets
+POST /timesheets
+DELETE /timesheets
+PUT /timesheets/{id}
+```
