@@ -43,7 +43,7 @@ class TimesheetControllerTest {
 
         mockMvc.perform(get("/timesheets/1"))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.timesheetId").value(1L));  // Изменение пути JSON
+                .andExpect(jsonPath("$.timesheetId").value(1L));
     }
 
 //    @Test
