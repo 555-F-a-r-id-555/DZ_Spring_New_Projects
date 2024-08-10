@@ -53,7 +53,7 @@ class TimesheetControllerTest {
 //        Mockito.when(timesheetService.findById(1L)).thenReturn(Optional.of(timesheet));
 //
 //        mockMvc.perform(get("/timesheets/1")
-//                        .with(httpBasic("rest", "rest"))) // добавьте правильные имя пользователя и пароль
+//                        .with(httpBasic("rest", "rest")))
 //                .andExpect(status().isOk())
 //                .andExpect(jsonPath("$.id").value(1L));
 //    }
