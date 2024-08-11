@@ -1,8 +1,8 @@
-package com.example.DZTen.Calculator;
+package com.example.DZTen.Calculator.example;
 
 public class CalculatorCode {
 
     public int sum(int a, int b) {
-        return a + a;
+        return a + b;
     }
 }
