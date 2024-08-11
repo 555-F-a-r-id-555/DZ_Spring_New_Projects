@@ -19,4 +19,5 @@ class TaxCalculatorTest {
        Assertions.assertEquals(150.0,taxCalculator.getPriceWithTax(100.0),0.000009);
     }
 
+
 }

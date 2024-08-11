@@ -11,5 +11,6 @@ public class TaxCalculator {
     public double getPriceWithTax(double price){
         double currentTax = taxResolver.getCurrentTax();
         return price + price * currentTax;
+
     }
 }
